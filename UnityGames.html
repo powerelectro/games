@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Unity Games | Electro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link rel="icon" href="https://tr.rbxcdn.com/b0298cad9d0e88d1e56afbca3b237998/150/150/AvatarHeadshot/Png" type="image/gif" sizes="16x16"> 
+  </head>
+  <style>
+    body {
+      background-color: rgba(50, 50, 50, 1);
+    }
+    .gamebox {
+      position: relative;
+      background-color: rgba(75, 75, 75, 1);
+      margin: 20px 0px 20px 275px;
+    }
+    .menubox {
+      height: 100%; /* 100% Full-height */
+      width: 250px;
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      background-color: rgba(75, 75, 75, 1);
+      margin: 10px 1100px 0px 10px;
+    }
+    .TopMessage {
+      position: relative;
+      background-color: rgba(75, 75, 75, 1);
+      margin: 0px 0px 0px 275px;
+      font-family: Acme;
+    }
+    .gameimg{
+      position: relative;
+      float: left;
+      border-radius: 10%;
+      margin: 15px 35px 0px 15px;
+    }
+    .gamedesc {
+      color: white;
+      font-family: Acme;
+    }
+    .gametitle {
+      position: relative;
+      color: white;
+      -webkit-text-stroke: 1px white;
+      -webkit-text-fill-color: white;
+      font-family: Calibri;
+    }
+    .button {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 150px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    .button:hover {
+      background-color: RoyalBlue;
+    }
+    .button:active {
+      background-color: rgba(0, 100, 205, 1);
+    }
+    .BackButton {
+      background-color: rgba(0, 255, 0, 1);
+      border: 3px solid black;
+      color: white;
+      font-size: 20px;
+    }
+    .BackButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    .BackButton span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .BackButton:hover span {
+      padding-right: 25px;
+    }
+    
+    .BackButton:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    .BackButton:active {
+      background-color: rgba(0, 150, 0, 1);
+      transform: translateY(4px);
+    }
+  </style>
+  
+  <body>
+    <div class="TopMessage">
+      <p class="gametitle" style="text-align:center;">All of the games here are created by me, feel free to download and play it! But remember to extract all the files and run the aplication so it can run! | Electro</p>
+    </div>
+    <div class="menubox" style="float: left;">
+      <img src="https://tr.rbxcdn.com/b0298cad9d0e88d1e56afbca3b237998/150/150/AvatarHeadshot/Png" height="150" width="150" style="margin: 0px 0px 0px 50px; border: 3px solid black;position: relative;" ></img>
+      <p class="gametitle" style="text-align:center;">You can follow me on:</p>
+      <p class="gamedesc" style="text-align:center; color: LightGray;">Roblox | powerelectro_roblox0</p>
+      <p class="gamedesc" style="text-align:center; color: DodgerBlue;">Discord | powerelectro_discord#0197</p>
+      <p class="gamedesc" style="text-align:center; color: red;">Youtube | powerelectro game</p>
+      <br>
+      <br>
+      <p class="gamedesc" style="text-align:center; color: rgba(0, 255, 0, 1);">You can talk to me when ever you like! ;)</p>
+      <br>
+      <p class="gamedesc" style="text-align:center; color: DodgerBlue;">Hope you enjoyed my game, Thanks for visiting this website! :D</p>
+      <a href="Menu.html">
+        <button style="padding: 12px 15px; margin: 0px 0px 0px 40px;" class="BackButton"><span>Back To Menu</span></button>
+      </a>
+    </div>
+    <div class="gamebox">
+      <img class="gameimg" src="Assets\Game1.png" height="125" width="125"></img>
+      <hr style="height:0px; visibility:hidden;"/>
+      <h1 class="gametitle">Tank vs Blobs</h1>
+      <p class="gamedesc">Single player | 2D | RPG | Survival</p>
+      <p class="gamedesc">Creation date: 2/23/2022</p>
+      <a href="GameFiles\Tank vs Blobs Files.zip" download>
+        <button class="button"><i class="fa fa-download"></i> Download Game</button>
+      </a>
+    </div>
+    <div class="gamebox">
+      <img class="gameimg" src="Assets\Game2.jpg" height="125" width="125"></img>
+      <hr style="height:0px; visibility:hidden;"/>
+      <h1 class="gametitle">Spike Danger</h1>
+      <p class="gamedesc">Single player | 2D | Survival</p>
+      <p class="gamedesc">Creation date: 2/3/2022</p>
+      <a href="GameFiles\Spike Danger Files.zip" download>
+        <button class="button"><i class="fa fa-download"></i> Download Game</button>
+      </a>
+    </div>
+    <div class="gamebox">
+      <img class="gameimg" src="Assets\Game2.jpg" height="125" width="125"></img>
+      <hr style="height:0px; visibility:hidden;"/>
+      <h1 class="gametitle">Spike Danger</h1>
+      <p class="gamedesc">Single player | 2D | Survival</p>
+      <p class="gamedesc">Creation date: 2/3/2022</p>
+      <a href="GameFiles\Spike Danger Files.zip" download>
+        <button class="button"><i class="fa fa-download"></i> Download Game</button>
+      </a>
+    </div>
+    <script></script>
+  </body>
+</html>
