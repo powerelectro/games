@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Menu | Electro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link rel="icon" href="https://tr.rbxcdn.com/b0298cad9d0e88d1e56afbca3b237998/150/150/AvatarHeadshot/Png" type="image/gif" sizes="16x16"> 
+  </head>
+  <style>
+    body {
+      background-color: rgba(50, 50, 50, 1);
+    }
+    .TopMessage {
+      position: relative;
+      background-color: rgba(75, 75, 75, 1);
+      margin: 0px 0px 0px 0px;
+    }
+    img {
+      position: relative;
+      float: center;
+      border-radius: 10%;
+      height: 250px;
+      width: 250px;
+    }
+    .gamedesc {
+      color: white;
+      font-family: Acme;
+    }
+    button {
+      background-color: rgba(0, 255, 0, 1);
+      border: 3px solid black;
+      color: white;
+      font-size: 20px;
+    }
+    button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    button:hover span {
+      padding-right: 25px;
+    }
+    
+    button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    button:active {
+      background-color: rgba(0, 150, 0, 1);
+      transform: translateY(4px);
+    }
+  </style>
+  
+  <body>
+    <div class="TopMessage">
+      <h1 class="gamedesc" style="text-align:center; color: rgba(0, 255, 0, 1);">You can play all of my games here, enjoy! | Electro</h1>
+    </div>
+    <div style="margin: 150px 0px 0px 400px;">
+      <img src="Assets\Roblox Icon.png"></img>
+      <img src="Assets\Unity.png" style="margin: 0px 0px 0px 35px;""></img>
+      <hr style="height:250px; visibility:hidden;"/>
+      <a href="RobloxGames.html">
+        <button style="padding: 12px 20px;"><span>Electro's Roblox Games</span></button>
+      </a>
+      <a href="UnityGames.html">
+        <button style="padding: 12px 30px; margin: 0px 0px 0px 20px"><span>Electro's Unity Games</span></button>
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
